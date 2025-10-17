@@ -1,0 +1,11 @@
+faiss_indexstore:
+  save_path: 'vector/vect_db'
+  index_name: 'carcasone_rules'
+
+embeddings:
+  name: 'all-MiniLM-L6-v2'
+  device: 'cuda'
+
+TextSplitter:
+  chunk_size: 256
+  chunk_overlap: 12
